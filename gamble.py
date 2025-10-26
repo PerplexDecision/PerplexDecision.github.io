@@ -35,4 +35,5 @@ async def slots(ctx):
     else:
         await ctx.send(f"😢 No luck this time, {ctx.author.mention}!")
 
-bot.run("MTQzMjEyMTQwOTI0MDU2ODA4Mw.GSmJgc.f-762DoYUnlJxr54epmqLdA-ESoCjZl  6M7GPDo")
+import os
+bot.run(os.getenv("MTQzMjEyMTQwOTI0MDU2ODA4Mw.GSmJgc.f-762DoYUnlJxr54epmqLdA-ESoCjZl  6M7GPDo"))
